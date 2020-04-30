@@ -1,3 +1,7 @@
+.form-wrapper {
+	margin-top: 100px;
+}
+
 #logo-image {
 	display: block;
 	margin: 0 auto;
@@ -7,8 +11,23 @@
 	display: block;
 	margin: 0 auto;
 	width: 70%;
+	border: solid;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: gray;
+	height: 2.5em;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .button-wrapper {
 	text-align: center;
+}
+
+.form-button {
+	background-color: pink;
+	border: none;
+	border-radius: 3px;
+	background: lightgray;
+	padding: 5px;
 }
