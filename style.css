@@ -1,3 +1,18 @@
+#nav-bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+}
+
+#nav-bar li {
+	display: inline;
+	padding: 0 1em;
+}
+
+#nav-bar li a {
+	color: gray;
+}
+
 .form-wrapper {
 	margin-top: 100px;
 }
