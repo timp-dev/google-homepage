@@ -10,7 +10,7 @@
 }
 
 #nav-bar li a {
-	color: gray;
+	color: black;
 }
 
 .form-wrapper {
@@ -20,6 +20,7 @@
 #logo-image {
 	display: block;
 	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 #search-box {
@@ -45,4 +46,23 @@
 	border-radius: 3px;
 	background: lightgray;
 	padding: 5px;
+}
+
+#footer-bar {
+	position: fixed;
+	bottom: 0%;
+	width: 100%;	
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+	background: whitesmoke;
+}
+
+#footer-bar li {
+	display: inline;
+	padding: 0 1em;
+}
+
+#footer-bar li a {
+	color: black;
 }
