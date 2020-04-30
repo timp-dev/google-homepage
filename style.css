@@ -1,8 +1,14 @@
-.google-form {
-	text-align: center;
-}
-
-.google-logo {
+#logo-image {
 	display: block;
 	margin: 0 auto;
+}
+
+#search-box {
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.button-wrapper {
+	text-align: center;
 }
